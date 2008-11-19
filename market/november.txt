@@ -1,2 +1,5 @@
 greens
 butternut squash
+daikon
+broccoli
+apples
