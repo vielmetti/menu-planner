@@ -1,0 +1,10 @@
+#!/bin/sh
+SHUF="gshuf -n 1"
+
+$SHUF <<EOSHUF
+carrots
+celery
+radishes
+salad
+cucumbers
+EOSHUF
