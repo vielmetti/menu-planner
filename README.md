@@ -1,4 +1,4 @@
-menu-planner
+# menu-planner
 
 some notes on menu planning, and maybe some code
 
