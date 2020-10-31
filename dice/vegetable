@@ -1,0 +1,8 @@
+#!/bin/sh
+SHUF="gshuf -n 1"
+
+$SHUF <<EOSHUF
+cabbage
+broccoli
+cauliflower
+EOSHUF

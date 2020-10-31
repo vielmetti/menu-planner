@@ -1,0 +1,10 @@
+#!/bin/sh
+SHUF="gshuf -n 1"
+
+$SHUF <<EOSHUF
+rice
+bread
+pasta
+potatoes
+polenta
+EOSHUF
