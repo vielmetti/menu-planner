@@ -27,6 +27,6 @@ END {
 	# ingredient combos that make a meal
 
 	while (getline < "menu-suggest.csv") {
-		if (ings($1,$2,$3)) { print $1, $2, $3, ":", $4 }
+		if (ings($2,$3,$4)) { print $2, $3, $4, ":", $1 }
 	}
 }
