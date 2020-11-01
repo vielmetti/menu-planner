@@ -1,6 +1,7 @@
 # menu-planner
 
-some notes on menu planning, and maybe some code
+some notes on menu planning, and maybe some code;
+look in the "dice" directory for the code.
 
 the weekly routine is to plan a menu for next week.
 this is a constraint based scheduling problem,
