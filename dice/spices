@@ -1,0 +1,15 @@
+#!/bin/sh
+SHUF="gshuf -n 1"
+
+$SHUF <<EOSHUF
+oregano
+thyme
+rosemary
+cumin
+coriander
+bay leaf
+chili
+gochujang
+miso
+curry
+EOSHUF
