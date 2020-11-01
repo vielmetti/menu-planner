@@ -2,16 +2,16 @@
 SHUF="gshuf -n 1"
 
 $SHUF <<EOSHUF
-fish
-chicken
-tofu
-lentils
-chickpeas
-black beans
-white beans
 beans
-eggs
-pizza
+black beans
 cheese
+chicken
+chickpeas
+eggs
+fish
+lentils
 nuts
+pizza
+tofu
+white beans
 EOSHUF

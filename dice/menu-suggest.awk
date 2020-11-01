@@ -38,6 +38,7 @@ END {
 	if (ings("fish","rice")) { print "glazed salmon with rice" }
 	if (ings("green cabbage","carrots")) { print "cole slaw" }
 	if (ings("kale","salad")) { print "forager salad" }
+	if (ings("lentils","salad")) { print "lentil salad" }
 	if (ings("parsley","beans")) { print "tabouli" }
 	if (ings("parsley","cucumbers")) { print "tabouli" }
 	if (ings("parsley","eggs")) { print "frittata" }
@@ -52,4 +53,5 @@ END {
 	if (ings("spinach","eggs")) { print "frittata" }
 	if (ings("spinach","gochujang")) { print "bi bim bap" }
 	if (ings("thyme","bread")) { print "zaatar" }
+	if (ings("tofu","rice")) { print "tofu stir-fry with rice" }
 }
