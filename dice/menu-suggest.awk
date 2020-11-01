@@ -1,13 +1,19 @@
+BEGIN {
+	print "== ingredients"
+}
+
 {
 	ing[$0]++
 	print $0
 }
 
 END {
+	print "== suggestions"
 	if (ing["pizza"]) { print "pizza night" }
-	if (ing["pasta"] && ing["spinach"]) { print "lasagna" }
+	if (ing["pasta"] && ing["spinach"]) { print "spinach lasagna" }
 	if (ing["rice"] && ing["eggs"]) { print "bi bim bap" }
 	if (ing["spinach"] && ing["eggs"]) { print "frittata" }
+	if (ing["spinach"] && ing["gochujang"]) { print "bi bim bap" }
 	if (ing["kale"] && ing["salad"]) { print "forager salad" }
 	if (ing["cauliflower"] && ing["cheese"]) { print "cauli cheese" }
 	if (ing["chicken"] && ing["rice"]) { print "chicken casserole" }
