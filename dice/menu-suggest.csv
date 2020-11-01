@@ -3,6 +3,9 @@ beans,celery,black bean soup
 beans,spinach,tuscan white bean salad
 beans,sweet potatoes,sweet potato black bean salad
 beans,winter squash,southwestern stew
+black beans,garlic,black bean burgers
+black beans,winter squash,butternut squash black bean chili
+carrots,*,carrot salad with tarragon
 cauliflower,cheese,cauli cheese
 chard,eggs,frittata
 chicken,curry,curry chicken salad
@@ -10,11 +13,16 @@ chicken,potatoes,coconut chicken curry w potatoes}
 chicken,rice,chicken casserole
 chicken,salad,curry chicken salad
 chicken,turmeric,turmeric black pepper chicken
+chickpeas,bread,chickpea flour pancakes
+chickpeas,broccoli,general tso chickpeas
+chickpeas,carrots,carrot tahini salad with spiced chickpeas
 chickpeas,cayenne,east indian chickpea salad}
 chickpeas,green peppers,sephardic chickpea salad
+gochujang,*,bi bim bap
 green cabbage,carrots,cole slaw
 kale,salad,forager salad
 lentils,salad,lentil salad
+napa cabbage,*,ginger cabbage
 parsley,beans,tabouli
 parsley,cucumbers,tabouli
 parsley,eggs,frittata
@@ -22,6 +30,8 @@ pasta,broccoli,calabrian style
 pasta,cheese,mac and goat
 pasta,nuts,peanut noodles
 pasta,spinach,spinach lasagna
+pizza,*,pizza night
+polenta,*,polenta with red sauce
 potatoes,cheese,potatoes au gratin
 potatoes,eggs,eggs and fried potatoes}
 potatoes,kale,colcannon
@@ -31,7 +41,11 @@ salmon,miso,miso glazed salmon with rice
 spinach,eggs,frittata
 spinach,gochujang,bi bim bap
 sweet potatoes,eggs,sweet potato hash with eggs
+tarragon,*,carrot salad with tarragon
 thyme,bread,zaatar
 tuna,curry,tuna kegderee
 tuna,rice,tuna kegderee
 tofu,rice,tofu stir-fry with rice
+white beans,broccoli rabe,broccoli rabe with white beans
+winter squash,chili,butternut squash black bean chili
+winter squash,*,roasted squash
