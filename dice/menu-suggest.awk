@@ -18,6 +18,7 @@ END {
 	if (ing["cauliflower"] && ing["cheese"]) { print "cauli cheese" }
 	if (ing["chicken"] && ing["rice"]) { print "chicken casserole" }
 	if (ing["chicken"] && ing["salad"]) { print "chicken salad" }
+	if (ing["chicken"] && ing["turmeric"]) { print "turmeric black pepper chicken" }
 	if (ing["parsley"] && ing["beans"]) { print "tabouli" }
 	if (ing["parsley"] && ing["cucumbers"]) { print "tabouli" }
 	if (ing["parsley"] && ing["eggs"]) { print "frittata" }
@@ -29,4 +30,8 @@ END {
 	if (ing["beans"] && ing["celery"]) { print "black bean soup" }
 	if (ing["fish"] && ing["rice"]) { print "glazed salmon with rice" }
 	if (ing["pasta"] && ing["nuts"]) { print "peanut noodles" }
+	if (ing["thyme"] && ing["bread"]) { print "zaatar" }
+	if (ing["curry"] && ing["chicken"]) { print "curry chicken salad" }
+	if (ing["green cabbage"] && ing["carrots"]) { print "cole slaw" }
+	if (ing["napa cabbage"]) { print "ginger cabbage" }
 }

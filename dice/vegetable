@@ -2,7 +2,9 @@
 SHUF="gshuf -n 1"
 
 $SHUF <<EOSHUF
-cabbage
+napa cabbage
+green cabbage
 broccoli
 cauliflower
+bok choi
 EOSHUF
