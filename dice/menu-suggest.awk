@@ -1,7 +1,11 @@
-function ings(ingone, ingtwo) {
+function ings(ingone, ingtwo, ingthree) {
 	if (ing[ingone] && ing[ingtwo])
 		return 1
 	else if (ing[ingone] && ingtwo == "*")
+		return 1
+	else if (ing[ingone] && ing[ingthree])
+		return 1
+	else if (ing[ingtwo] && ing[ingthree])
 		return 1
 	else
 		return 0
@@ -23,6 +27,6 @@ END {
 	# ingredient combos that make a meal
 
 	while (getline < "menu-suggest.csv") {
-		if (ings($1,$2)) { print $1, $2, ":", $3 }
+		if (ings($1,$2,$3)) { print $1, $2, $3, ":", $4 }
 	}
 }
