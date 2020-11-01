@@ -21,10 +21,11 @@ function randline(string) {
 	close(cmd)
 }
 
-# 
-{ }
+# no patterns, so no input 
+# but some awks need input anyway, so echo into the pgm to start it
+# otherwise it hangs waiting for data!
 
-# for each argument on the command line, pick a random
+# TODO: for each argument on the command line, pick a random
 # ingredient from its category in the in-memory database
 #
 # if no command line arguments, pick one from each category
