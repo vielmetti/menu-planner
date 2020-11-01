@@ -1,5 +1,10 @@
 #!/bin/sh
-SHUF="gshuf -n 1"
+
+SHUFCOUNT=1
+case "$OSTYPE" in
+        darwin*)        SHUF="gshuf -n $SHUFCOUNT" ;;
+        *)              SHUF="shuf -n $SHUFCOUNT" ;;
+esac
 
 $SHUF <<EOSHUF
 bok choi
