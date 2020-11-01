@@ -1,3 +1,4 @@
+recipe,primary,secondary,tertiary
 bi bim bap,gochujang,*,*
 bi bim bap,rice,eggs,gochujang
 bi bim bap,rice,spinach,gochujang
@@ -8,7 +9,6 @@ broccoli rabe with white beans,white beans,broccoli rabe,garlic
 butternut squash black bean chili,black beans,winter squash,chili
 butternut squash black bean chili,winter squash,chili,black beans
 carrot salad with tarragon,carrots,tarragon,*
-carrot salad with tarragon,tarragon,carrots,*
 carrot tahini salad with spiced chickpeas,chickpeas,carrots,tahini
 cauli cheese,cauliflower,cheese,mustard
 chicken casserole,chicken,rice,broccoli
