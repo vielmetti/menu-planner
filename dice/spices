@@ -4,9 +4,11 @@ SHUF="gshuf -n 1"
 $SHUF <<EOSHUF
 bay leaf
 chili
+coconut
 coriander
 cumin
 curry
+garlic
 gochujang
 miso
 oregano

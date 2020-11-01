@@ -1,2 +1,2 @@
 #!/bin/sh
-for n in cool-and-crunchy green-and-leafy hot-and-savory vegetable warm-and-starchy spices ; do ./$n ; done | awk -f menu-suggest.awk 
+for n in cool-and-crunchy green-and-leafy hot-and-savory vegetable warm-and-starchy spices ; do ./$n ; done | awk -f menu-suggest.awk
