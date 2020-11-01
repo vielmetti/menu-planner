@@ -16,9 +16,14 @@ BEGIN {
 
 # works for now, but replace it with pure awk next
 function randline(string) {
-	cmd = "gshuf -n 1"
-	print string | cmd
-	close(cmd)
+#	cmd = "gshuf -n 1"
+#	print string | cmd
+#	close(cmd)
+# way faster, but wrong, off by one somewhere
+	arylen = split(string,ary,/\n/)
+	x = int(rand()*arylen) + 1
+	return ary[x]
+
 }
 
 # no patterns, so no input 
@@ -32,6 +37,6 @@ function randline(string) {
 
 END { 
 	for (i in ings) { 
-		randline(ings[i])
+		print randline(ings[i])
 	}
 }
