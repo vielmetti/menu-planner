@@ -29,4 +29,5 @@ END {
 	while (getline < "menu-suggest.csv") {
 		if (ings($2,$3,$4)) { print $2, $3, $4, ":", $1 }
 	}
+	close("menu-suggest.csv")
 }

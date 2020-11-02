@@ -18,6 +18,7 @@ BEGIN {
 			ings[$1] = $2
 		}
 	}
+	close("ingredients.csv")
 }
 
 # some awks need input so echo into the pgm to start it
